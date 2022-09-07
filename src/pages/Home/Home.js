@@ -13,13 +13,13 @@ const Home = () => {
         initial={{ y: "-10px" }}
         animate={{ y: "30px" }}
         exit={{ y: "-10px" }}
-        className="text-4xl  text-center"
+        className="text-4xl text-sm  text-center"
         whileHover={{ scale: 1.2 }}
       >
         Meet the Team
       </motion.h1>
 
-      <div className="app__home-team mt-5 ">
+      <div className="app__home-team mt-5 w-100 ">
         {/* div above start*/}
         <div className="mx-auto mt-5 pt-4 ">
           <div className="-left-[119px] relative z-0">
