@@ -17,14 +17,15 @@ body::-webkit-scrollbar {
 
 body::-webkit-scrollbar-track {
   background-color: #9c9794;
-  border-radius: 20px;
+  border-radius: 50px;
 }
 
 body::-webkit-scrollbar-thumb {
-  background: rgb(78, 7, 7);
+  border-radius: 20px;
+  background: rgb(216, 163, 163);
 }
 
-/* add padding to all classNAme contain container */
+/* add padding to all className contain container */
 .container {
   padding: 1rem 6rem;
   font-family: "Cormorant Upright", serif;
