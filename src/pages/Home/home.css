@@ -1,0 +1,29 @@
+.app__home-team {
+  margin-top: 1rem;
+}
+
+.app__home-team_left-content {
+  margin-bottom: 7rem;
+}
+.app__home-team_right-content {
+  margin-bottom: 7rem;
+}
+
+@media screen and (max-width: 665px) {
+  .app__home-title h1 {
+    font-size: 22px;
+  }
+  .app__home-team {
+    width: 100%;
+  }
+  .app__home-team_left {
+    right: 0;
+  }
+  .app__home-team_right {
+    right: 20px;
+  }
+  img {
+    width: 200px;
+    height: 200px;
+  }
+}
