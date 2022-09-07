@@ -8,7 +8,7 @@
 .app__home-team_right-content {
   margin-bottom: 7rem;
 }
-
+/* small screen */
 @media screen and (max-width: 665px) {
   .app__home-title h1 {
     font-size: 22px;
