@@ -44,7 +44,7 @@ const Home = () => {
         </div>
         {/*  div above end */}
 
-        {/*  div bellow start */}
+        {/*  div below start */}
         <div  className=" mx-auto mt-[132px] pt-4 ">
           <div className=" -left-[119px] relative z-0">
             <motion.div whileHover={{rotate:"2deg", scale: 1.03, transition: "0.5s" }}>
@@ -64,7 +64,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-        {/*  div bellow end */}
+        {/*  div below end */}
 
         </div>
       </div>
