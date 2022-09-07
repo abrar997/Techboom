@@ -49,8 +49,5 @@ img {
   .app__home {
     width: 100%;
   }
-  .app__home div {
-    width: 210px;
-    margin-left: 20px;
-  }
+  
 }
