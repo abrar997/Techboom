@@ -5,7 +5,9 @@ import "./home.css";
 
 const Home = () => {
   return (
-    <div className="app__home text-left font-bold bg-primary container w-100 sm:w-100">
+    <div className="app__home text-left w-screen 
+    font-bold bg-primary  sm:w-[100%]
+    ">
       <div className="app__home-title">
         {/* title  */}
         <motion.h1
@@ -19,9 +21,10 @@ const Home = () => {
         </motion.h1>
       </div>
 
-      <div className="app__home-team w-100 flex ">
+      <div className="app__home-team flex  items-center ">
         {/* Left side team  start*/}
-        <div className="app__home-team_left mx-auto mt-5 pt-5 relative -left-[109px] z-0">
+        <div className="app__home-team_left mx-auto 
+        mt-5 pt-5  relative -left-[109px] z-0">
           {data.data.Left.map((item) => {
             return (
               <div className="app__home-team_left-content" key={item.id}>

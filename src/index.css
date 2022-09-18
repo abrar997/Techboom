@@ -45,9 +45,3 @@ img {
   box-shadow: 2px 2px 12px rgb(176, 176, 176);
 }
 
-@media screen and (max-width: 920px) {
-  .app__home {
-    width: 100%;
-  }
-  
-}
